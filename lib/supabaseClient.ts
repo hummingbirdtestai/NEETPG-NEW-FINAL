@@ -6,12 +6,12 @@ import Constants from "expo-constants";
 const SUPABASE_URL =
   process.env.EXPO_PUBLIC_SUPABASE_URL ||
   Constants.expoConfig?.extra?.EXPO_PUBLIC_SUPABASE_URL ||
-  "https://0ec90b57d6e95fcbda19832f.supabase.co";
+  "https://qyhbwuqnedkizvvsyfyx.supabase.co";
 
 const SUPABASE_ANON_KEY =
   process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ||
   Constants.expoConfig?.extra?.EXPO_PUBLIC_SUPABASE_ANON_KEY ||
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJib2x0IiwicmVmIjoiMGVjOTBiNTdkNmU5NWZjYmRhMTk4MzJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4ODE1NzQsImV4cCI6MTc1ODg4MTU3NH0.9I8-U0x86Ak8t2DGaIk0HfvTSLsAyzdnz-Nw00mMkKw";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5aGJ3dXFuZWRraXp2dnN5Znl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM1MzkwNTksImV4cCI6MjA2OTExNTA1OX0.KL2xauqyGp8edlQPAhhAVD-TT71UY86C9MhHENRi-i4";
 
 console.log("🔍 Loaded ENV Variables:");
 console.log("   SUPABASE_URL =", SUPABASE_URL);
